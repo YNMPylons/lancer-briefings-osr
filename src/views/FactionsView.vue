@@ -16,11 +16,11 @@
 				</div>
 			</div>
 		</section>
-		<section id="events-logs" :class="{ animate: animate }" class="section-container">
+		<section id="overview" :class="{ animate: animate }" class="section-container">
 			<div style="height: 52px; overflow: hidden">
-				<div class="section-header clipped-medium-backward-events-logs">
+				<div class="section-header clipped-medium-backward-overview">
 					<img src="/icons/conversation.svg" />
-					<h1>EVENT LOG</h1>
+					<h1>OVERVIEW</h1>
 				</div>
 				<div class="rhombus-back">&nbsp;</div>
 			</div>
