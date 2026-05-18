@@ -57,7 +57,7 @@ export default {
 		this.importClocks(import.meta.glob("@/assets/clocks/*.json"));
 		this.importReserves(import.meta.glob("@/assets/reserves/*.json"));
 		this.importPilots(import.meta.glob("@/assets/pilots/*.json"));
-		this.importEvents(import.meta.glob("@/assets/events/*.json"));
+		this.importFactions(import.meta.glob("@/assets/factions/*.md", { query: '?raw', import: 'default' }));
 	},
 	mounted() {
 		this.$router.push("/status");
