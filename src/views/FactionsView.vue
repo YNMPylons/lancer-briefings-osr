@@ -1,36 +1,36 @@
 <template>
-	<div id="eventsView" :class="{ animate: animateView }" :style="{ 'animation-delay': animationDelay }" class="content-container">
-		<section id="events" :class="{ animate: animate }" class="section-container">
+	<div id="factionsView" :class="{ animate: animateView }" :style="{ 'animation-delay': animationDelay }" class="content-container">
+		<section id="factions" :class="{ animate: animate }" class="section-container">
 			<div class="section-header clipped-medium-backward">
 				<img src="/icons/clockwork.svg" />
-				<h1>BEATS</h1>
+				<h1>FACTIONS</h1>
 			</div>
 			<div class="section-content-container">
-				<div class="events-list-container">
-					<Event
-						v-for="item in events"
+				<div class="factions-list-container">
+					<Faction
+						v-for="item in factions"
 						:key="item.title"
-						:event="item"
+						:faction="item"
 						:animate="animate"
-						@select-event="selectEvent(item)" />
+						@select-faction="selectFaction(item)" />
 				</div>
 			</div>
 		</section>
-		<section id="events-logs" :class="{ animate: animate }" class="section-container">
+		<section id="overview" :class="{ animate: animate }" class="section-container">
 			<div style="height: 52px; overflow: hidden">
-				<div class="section-header clipped-medium-backward-events-logs">
+				<div class="section-header clipped-medium-backward-overview">
 					<img src="/icons/conversation.svg" />
-					<h1>EVENT LOG</h1>
+					<h1>OVERVIEW</h1>
 				</div>
 				<div class="rhombus-back">&nbsp;</div>
 			</div>
 			<div class="section-content-container extra-margins">
-				<div class="event" v-if="selectedEvent.title">
+				<div class="faction" v-if="selectedFaction.title">
 					<div class="name">
-						<h1>{{ selectedEvent.location }} // {{ selectedEvent.time }}</h1>
-						<h2>{{ selectedEvent.title }}</h2>
+						<h1>{{ selectedFaction.location }} // {{ selectedFaction.time }}</h1>
+						<h2>{{ selectedFaction.title }}</h2>
 					</div>
-					<vue-markdown-it :source="selectedEvent.content" class="markdown" />
+					<vue-markdown-it :source="selectedFaction.content" class="markdown" />
 				</div>
 			</div>
 		</section>
@@ -39,12 +39,12 @@
 
 <script>
 import { VueMarkdownIt } from '@f3ve/vue-markdown-it';
-import Event from "@/components/Event.vue";
+import Faction from "@/components/Faction.vue";
 
 export default {
 	components: {
 		VueMarkdownIt,
-		Event,
+		Faction,
 	},
 	props: {
 		animate: {
@@ -58,14 +58,14 @@ export default {
 	},
 	data() {
 		return {
-			selectedEvent:{
+			selectedFaction:{
 				type: Object,
 			}
 		};
 	},
 	methods: {
-		selectEvent(event) {
-			this.selectedEvent = event;
+		selectFaction(faction) {
+			this.selectedFaction = faction;
 		}
 	}
 };
