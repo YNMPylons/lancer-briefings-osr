@@ -18,7 +18,7 @@
 		</section>
 		<section id="faction-log" :class="{ animate: animate }" class="section-container">
 			<div style="height: 52px; overflow: hidden">
-				<div class="section-header clipped-medium-backward-faction-log">
+				<div class="section-header clipped-medium-backward">
 					<img src="/icons/conversation.svg" />
 					<h1>FACTION LOG</h1>
 				</div>
