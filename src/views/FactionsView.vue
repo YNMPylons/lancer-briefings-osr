@@ -16,9 +16,9 @@
 				</div>
 			</div>
 		</section>
-		<section id="faction-log" :class="{ animate: animate }" class="section-container">
+		<section id="factions-logs" :class="{ animate: animate }" class="section-container">
 			<div style="height: 52px; overflow: hidden">
-				<div class="section-header clipped-medium-backward">
+				<div class="section-header clipped-medium-backward-factions-logs">
 					<img src="/icons/conversation.svg" />
 					<h1>FACTION LOG</h1>
 				</div>
