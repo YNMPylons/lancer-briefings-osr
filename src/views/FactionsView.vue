@@ -2,7 +2,7 @@
 	<div id="factionsView" :class="{ animate: animateView }" :style="{ 'animation-delay': animationDelay }" class="content-container">
 		<section id="factions" :class="{ animate: animate }" class="section-container">
 			<div class="section-header clipped-medium-backward">
-				<img src="/icons/clockwork.svg" />
+				<img src="/icons/squad.svg" />
 				<h1>FACTIONS</h1>
 			</div>
 			<div class="section-content-container">
@@ -16,11 +16,11 @@
 				</div>
 			</div>
 		</section>
-		<section id="overview" :class="{ animate: animate }" class="section-container">
+		<section id="faction-log" :class="{ animate: animate }" class="section-container">
 			<div style="height: 52px; overflow: hidden">
-				<div class="section-header clipped-medium-backward-overview">
+				<div class="section-header clipped-medium-backward-faction-log">
 					<img src="/icons/conversation.svg" />
-					<h1>OVERVIEW</h1>
+					<h1>FACTION LOG</h1>
 				</div>
 				<div class="rhombus-back">&nbsp;</div>
 			</div>
