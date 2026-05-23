@@ -1,2 +1,9 @@
 [
+  {
+    "name": "BOMBARDMENT",
+    "type": "Tactical",
+    "consumable": true,
+    "description": "1/mission, begin the combat encounter garrisoned inside a single building in the battlefield that is 8 spaces away from the ADZ.<br><br>The building is an object that is Size 3, has 30 HP, 5 Evasion and E Defense and provides Hard Cover from all direction. It allows one single character at any given time to remain garrisoned inside it.<br><br>A character can enter and exit the building with a Quick Action",
+    "label": "Free Action"
+  }
 ]
