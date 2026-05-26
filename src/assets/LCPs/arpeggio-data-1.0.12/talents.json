@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Artisan",
+    "icon_url": "https://raw.githubusercontent.com/gist/YNMPylons/66b0778322622448c755efd8659cbf94/raw/b611a75de7062bdaa5302f08ec470cbbdde9b024/EINS-Logo-bw.svg",
+    "id": "fgta_artisan",
+    "ranks": [
+      {
+        "name": "APPRENTICE",
+        "description": "<div>1/scene, you gain the <strong>Eureka Moment</strong> free action.</div>",
+        "actions": [
+          {
+            "name": "Eureka Moment",
+            "activation": "Free",
+            "detail": "<div>As a free action on your turn, when you would roll for a check or save, instead of rolling you can instead automatically succeed.</div><div><br><em>Author Note: Eureka Moment on contested checks, allows you to automatically succeed on contested checks meaning if an NPC rolls a 20, you instead will be receiving a 21 automatically.</em></div>",
+            "pilot": false,
+            "synergy_locations": [],
+            "tech_attack": false,
+            "frequency": "Unlimited",
+            "init": "",
+            "trigger": ""
+          }
+        ],
+        "exclusive": false
+      },
+      {
+        "name": "JOURNEYMAN",
+        "description": "<div>One weapon of your choice installed on your mech gains the Reliable Tag and it deals 3 Reliable damage.</div><div>Additionally, your Eureka Moment becomes 2/scene instead of 1/scene.</div>",
+        "exclusive": false
+      },
+      {
+        "name": "MASTERPIECE",
+        "description": "<div>One system or One weapon mount of your choice cannot be destroyed as a result of System Trauma.</div><div>Lastly, your Eureka Moment becomes 3/scene instead of 2/scene.</div><div><br><em>Author Note: In cases of Superheavy Weapons whereby it uses two weapon mounts for installation on a frame, the Heavy Mount plus Bracing Mount, both mounts supporting the installed Superheavy Weapon counts as one mount.</em></div>",
+        "exclusive": false
+      }
+    ],
+    "description": "<div>Your journey to achieve mastery and perfection for a particular field of interest begins from scratch, from sleepless nights to many failed attempts at creation or performance you persevere through all of this. From the ground up you have spent your lifetime perfecting your hand and this shows in your perfected creations whether made by hand, or by a handy industrial printer.</div>",
+    "terse": "Rely upon your inspired moments and masterpiece to carry your name far and wide."
+  },
+  {
+    "name": "Nemesis",
+    "terse": "Your foes without skill cower upon your presence as you command undeniable charisma to gain vantage and lead others.",
+    "description": "<div>You are a villain to your fellows, rivals and to society, your existence is questionable and you do not abide by any mandated law, this brings you great liberation but at the same time makes you the attention of ire from many law abiding individuals and groups. This doesn't really trouble you, in fact this has been your calling ever since you came upon the mortal coil.</div><div><br>Simply put you just want to see others fail in the face of your carefully laid out machinations, you are after all above everyone else.</div>",
+    "icon_url": "https://raw.githubusercontent.com/gist/YNMPylons/66b0778322622448c755efd8659cbf94/raw/b611a75de7062bdaa5302f08ec470cbbdde9b024/EINS-Logo-bw.svg",
+    "id": "fgta_nemesis",
+    "ranks": [
+      {
+        "name": "CONDESCENDING REMARK",
+        "description": "<div>Gain the <strong>Condescending Remark</strong> reaction.</div>",
+        "actions": [
+          {
+            "name": "Condescending Remark",
+            "activation": "Reaction",
+            "detail": "2/round, You openly mock and condescend the target on their lack of skill and capacity and then they become <strong>Impaired</strong>. This effect lasts until they succeed on a <strong>Free action Systems check at the end of their turn</strong>. They cannot clear Impaired applied via this reaction any other way.",
+            "pilot": false,
+            "synergy_locations": [],
+            "tech_attack": false,
+            "frequency": "2/round",
+            "init": "",
+            "trigger": "<div>A character within Sensors and Line of Sight fails a check or save.</div>"
+          }
+        ],
+        "exclusive": false
+      },
+      {
+        "name": "TEN STEPS AHEAD OF YOU",
+        "description": "<div>You gain +1 Accuracy to attacks against Impaired targets.</div>",
+        "exclusive": false
+      },
+      {
+        "name": "UNFOLDING SCHEMES",
+        "description": "2/round, one allied character within your Sensors and Line of Sight gains +1 Accuracy on their first attack roll against an <strong>Impaired</strong> target affected by your <strong>Condescending Remark</strong> within your Sensors and Line of Sight.<br><br>Additionally, clearing <strong>Impaired</strong> imposed by your <strong>Condescending Remark</strong> now requires a <strong>Quick action System save</strong> instead of a <strong>Free action System check</strong>. <span>Allied characters only benefit from one instance of this talent, additional characters with this talent do not provide further benefits.</span>",
+        "exclusive": false
+      }
+    ]
+  },
+  {
+    "icon_url": "https://raw.githubusercontent.com/gist/YNMPylons/66b0778322622448c755efd8659cbf94/raw/b611a75de7062bdaa5302f08ec470cbbdde9b024/EINS-Logo-bw.svg",
+    "name": "Samaritan",
+    "id": "fgta_samaritan",
+    "ranks": [
+      {
+        "name": "CHARITABLE",
+        "description": "<div>Whenever an allied character within Sensors and Line of Sight fails on a save, you know by how much they failed. Additionally, you gain the <strong>Helping Hand</strong> Reaction.</div>",
+        "actions": [
+          {
+            "name": "Helping Hand",
+            "activation": "Reaction",
+            "detail": "<div>As a reaction, you may add 1 to the roll. This may cause the save to succeed. Each save roll can only be affected this way once.</div>",
+            "pilot": false,
+            "synergy_locations": [],
+            "tech_attack": false,
+            "frequency": "1/round",
+            "init": "",
+            "trigger": "<div>An allied character within Sensors and Line of Sight fails a save.</div>"
+          }
+        ],
+        "exclusive": false
+      },
+      {
+        "name": "BENEVOLENT",
+        "description": "<div>Helping Hand now becomes 2/round instead of 1/round and additionally now applies to check rolls as well.</div>",
+        "exclusive": false
+      },
+      {
+        "name": "ALTRUIST",
+        "description": "<div>Gain an Altruist Dice, a d6 starting at 1. At the end of your turn, if you didn't take any actions that affected a hostile character during that turn, your Altruist Dice increases by 2 to a maximum of 6.</div><div>Whenever you use Helping Hand you may increase the save or check roll by the value of your Altruist Dice instead of by 1. Afterwards, it resets to 1. The value of your Altruist Dice persists between scenes but resets to 1 when you rest or perform a Full Repair.</div>",
+        "exclusive": false
+      }
+    ],
+    "description": "<div>In your journey you have come across many people from different walks of like and amongst them a few have left to you the undeniable impression of compassion and true altruism. You strive to help others in their time of need and tribulation, your mere presence enough to encourage others to rise up to the challenge. In this large ever expanding galaxy of ours a few Samaritans can make the difference. . . .and you are one of those!</div>",
+    "terse": "The journey on the road is long and ever winding but you do not tire for helping others is what keeps you going."
+  },
+  {
+    "icon_url": "https://raw.githubusercontent.com/gist/YNMPylons/66b0778322622448c755efd8659cbf94/raw/b611a75de7062bdaa5302f08ec470cbbdde9b024/EINS-Logo-bw.svg",
+    "name": "Vaulter",
+    "id": "fgta_vaulter",
+    "ranks": [
+      {
+        "name": "KICK OFF",
+        "description": "<div>You gain the <strong>Kick-Off</strong> quick action.</div>",
+        "actions": [
+          {
+            "name": "Kick-Off",
+            "activation": "Quick",
+            "detail": "<div>As a quick action, when your adjacent to a hostile character they must make a Hull save:</div><ul><li><div>On a failure, they are knocked <strong>Prone</strong> and you immediately jump (your jump is either Horizontal or Vertical your choice.)</div></li><li><div>On a success, they are knocked back 2 spaces and you are knocked backed 2 spaces.</div></li></ul>",
+            "pilot": false,
+            "synergy_locations": [],
+            "tech_attack": false,
+            "frequency": "Unlimited",
+            "init": "",
+            "trigger": ""
+          }
+        ],
+        "exclusive": false
+      },
+      {
+        "name": "AERIALIST",
+        "description": "<div>When you Jump you are always considered as at a higher elevation. Additionally, while jumping, attacks against you receive +1 Difficulty.</div>",
+        "exclusive": false
+      },
+      {
+        "name": "FELINE GRACE",
+        "description": "<div>1/round, when you would take fall damage, you instead reduce the damage to 0. Additionally, when you reduce fall damage this way you immediately move 2 spaces in any direction of your choice. This movement ignores engagement and doesn’t provoke reactions.</div>",
+        "exclusive": false
+      }
+    ],
+    "terse": "Take to the skies as you attempt to reach the heavens with one great leap.",
+    "description": "<div>Vaulter's are hard headed pilots who refuse to take flight systems and have instead resorted to using the good ol reliable method of jumping. Vaulter frames sport custom pneumatic leg servos and redundant shock absorbers allowing them to reach absurd jumping heights and crash down to the ground with nigh minimal problems. </div><div><br>In reality most Vaulter's actually just have a great fear of flying. . .</div>"
+  },
+  {
+    "icon_url": "https://raw.githubusercontent.com/gist/YNMPylons/66b0778322622448c755efd8659cbf94/raw/b611a75de7062bdaa5302f08ec470cbbdde9b024/EINS-Logo-bw.svg",
+    "name": "Pioneer",
+    "description": "<div>New worlds to settle and explore always enamored a number of people, Engineer Welkin \"Wrench\" Biggins is a man passionate to explore the greater unknown and frontier. When the local Union recruitment office started calling for candidates to explore the far reaches of spaces specifically looking for individuals with the passion to build and settle in new found places he immediately signed up to be part of a newly formed Far Field Team.</div><div><br>A once in a lifetime opportunity to be part of the next generation one bolt at a time.</div>",
+    "ranks": [
+      {
+        "name": "REINFORCED PROJECTS",
+        "description": "<div><span>Your Deployable systems gain +5 HP</span></div>",
+        "bonuses": [
+          {
+            "id": "deployable_hp",
+            "val": 5,
+            "damage_types": [],
+            "range_types": [],
+            "weapon_types": [],
+            "weapon_sizes": [],
+            "overwrite": false,
+            "replace": false
+          }
+        ],
+        "exclusive": false
+      },
+      {
+        "name": "ENVIRONMENTAL PROTECTION",
+        "description": "While you or allied characters remain adjacent to your Deployable/s of a Size bigger or similar to you or them; may ignore Environmental Effects.",
+        "exclusive": false
+      },
+      {
+        "name": "ENDURING CONSTRUCTS",
+        "description": "<span>Your Deployable systems gain Resistance to all damage, heat and burn while they remain within Range 5 of you.</span>",
+        "exclusive": false
+      }
+    ],
+    "id": "fgta_pioneer",
+    "terse": "Improve your deployed assets allowing it to endure more wear and tear and provide a semblance of assistance to your allies."
+  },
+  {
+    "icon_url": "https://raw.githubusercontent.com/gist/YNMPylons/66b0778322622448c755efd8659cbf94/raw/b611a75de7062bdaa5302f08ec470cbbdde9b024/EINS-Logo-bw.svg",
+    "name": "Phalanx",
+    "id": "fgta_phalanx",
+    "terse": "Interpose between your allies and hostiles and become a shield that takes the brunt of the incoming tide of aggression.",
+    "ranks": [
+      {
+        "name": "WAVE BREAKER",
+        "description": "Line and Cone weapons and systems immediately stop/end their range/area of effect at the first space of interaction with your mech.",
+        "exclusive": false
+      },
+      {
+        "name": "AMYNTOR RUSH",
+        "description": "1/scene, you can make an Amyntor Rush as a free action on your turn, You barrel through the field, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your rush adjacent to an allied character. When you end your rush, any adjacent allied character may immediately recover from being <strong>Prone</strong> (if they are) and immediately brake any <strong>Grapple</strong> they are currently under the effects of.",
+        "actions": [
+          {
+            "name": "Amyntor Rush",
+            "activation": "Free",
+            "detail": "You barrel through the field, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your rush adjacent to an allied character. When you end your rush, any adjacent allied character may immediately recover from being <strong>Prone</strong> (if they are) and immediately brake any <strong>Grapple</strong> they are current under the effects of.",
+            "pilot": false,
+            "synergy_locations": [],
+            "tech_attack": false,
+            "frequency": "Unlimited",
+            "init": "",
+            "trigger": ""
+          }
+        ],
+        "exclusive": false
+      },
+      {
+        "name": "TOWERING OBSTRUCTION",
+        "description": "Hostile characters that are a Size smaller than you, cannot draw Line of Sight pass beyond you towards to your allied characters that are directly behind you.",
+        "exclusive": false
+      }
+    ],
+    "description": "You are the bulwark, the great shield that pushes forward and takes the weight of the world upon your shoulders. . . let none tell you otherwise as you prove to all that you shall stand your ground and not let pass the evils that would befall your allies."
+  }
+]

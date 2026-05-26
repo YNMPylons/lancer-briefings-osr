@@ -1,0 +1,88 @@
+[
+  {
+    "id": "fgta_sensor_upgrade_module",
+    "name": "Sensor Upgrade Module",
+    "source": "EINS",
+    "effect": "<strong>Your mech gains +2 Sensors, up to the maximum of 20 and additionally gain +1 Accuracy when performing the Search quick tech action.</strong>",
+    "description": "<div>An additional radar dish or an expanded sensor suite package installed to a mech allows one to increase their sensor detection range of incoming unknowns and bogeys.</div>",
+    "mounted_effect": "",
+    "bonuses": [
+      {
+        "id": "sensor",
+        "val": 2,
+        "damage_types": [],
+        "range_types": [],
+        "weapon_types": [],
+        "weapon_sizes": [],
+        "overwrite": false,
+        "replace": false
+      }
+    ]
+  },
+  {
+    "id": "fgta_system_suite_defrag",
+    "name": "System Suite Defrag",
+    "source": "EINS",
+    "effect": "<div><strong>Your mech gains +2 System Points and +1 to System saves and checks.</strong></div>",
+    "description": "<div>By removing bloatware and force optimizing a mechs onboard OS, one can reallocate and free up space to allow additional installations of more important system software and equipment profiles.</div>",
+    "mounted_effect": "",
+    "bonuses": [
+      {
+        "id": "sp",
+        "val": 2,
+        "damage_types": [],
+        "range_types": [],
+        "weapon_types": [],
+        "weapon_sizes": [],
+        "overwrite": false,
+        "replace": false
+      }
+    ]
+  },
+  {
+    "id": "fgta_explosive_reactive_armor",
+    "name": "Explosive Reactive Armor",
+    "source": "EINS",
+    "effect": "<div><strong>1/scene, the first weapon damage you take is reduced to 0 instead. This effect will not trigger if the damage received cannot be reduced.</strong></div>",
+    "description": "<div>The Little War taught us much, that ERAs are very viable in any theater of conventional warfare.</div>",
+    "mounted_effect": ""
+  },
+  {
+    "id": "fgta_drone_upgrade_module_i",
+    "name": "Drone Upgrade Module I",
+    "source": "EINS",
+    "effect": "<div><strong>Increase all your Drone's Size by one increment (e.g., from 1/2 to 1, 1 to 2 or 2 to 3), up to a maximum of Size 3 and your drones gain +1 Armor.</strong></div>",
+    "description": "<div>Reinforced frame and armor panel bracing for drones and sub-alterns, allows for an increased durability at the small exchange of increased bulk and weight.</div>",
+    "mounted_effect": "",
+    "bonuses": [
+      {
+        "id": "drone_armor",
+        "val": 1,
+        "damage_types": [],
+        "range_types": [],
+        "weapon_types": [],
+        "weapon_sizes": [],
+        "overwrite": false,
+        "replace": false
+      },
+      {
+        "id": "drone_size",
+        "val": 1,
+        "damage_types": [],
+        "range_types": [],
+        "weapon_types": [],
+        "weapon_sizes": [],
+        "overwrite": false,
+        "replace": false
+      }
+    ]
+  },
+  {
+    "id": "fgta_drone_upgrade_module_ii",
+    "name": "Drone Upgrade Module II",
+    "source": "EINS",
+    "effect": "<strong>At the end of your turn, your Drones within your Sensors and Line of Sight may move a number of spaces equal to your GRIT + 1.</strong>",
+    "description": "<div>Direct wire communication allows for more optimized and efficient transfer of guided basic commands to sub-alterns and drones units within a mechs registered hemisphere of control.</div>",
+    "mounted_effect": ""
+  }
+]

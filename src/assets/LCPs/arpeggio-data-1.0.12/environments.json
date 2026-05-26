@@ -1,0 +1,12 @@
+[
+  {
+    "id": "fgta_active_warzone",
+    "name": "Active Warzone",
+    "description": "The area is embroiled in a grueling engagement between two sides with soldiers and mechs fighting heavily in the background, bullets, warheads, missiles and lasers fly rampantly across the landscape. At the start of every round, all characters must roll for an AGILITY check or receive Kinetic, Energy or Explosive damage equal to their Size (minimum of 1)."
+  },
+  {
+    "name": "Atmospheric Entry",
+    "id": "fgta_atmospheric_entry",
+    "description": "At the end of every round, all characters must roll for an ENGINEERING check or take Heat equal to their Size (minimum of 1)."
+  }
+]
