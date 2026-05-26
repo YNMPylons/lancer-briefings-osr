@@ -139,7 +139,6 @@ import ktbData from 'lancer-ktb-data'
 import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
 
-import arpeggioData from '@/assets/LCPs/arpeggio-data-1.0.12'
 import dustgraveData from '@/assets/LCPs/dustgrave-data-1.4.0'
 import ktbmainData from '@/assets/LCPs/ktb-main-data-1.2.3'
 import longrimmainData from '@/assets/LCPs/longrim-main-data-1.2.1'
