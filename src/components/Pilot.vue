@@ -139,6 +139,7 @@ import ktbData from 'lancer-ktb-data'
 import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
 
+import arpeggioData from '@/assets/LCPs/arpeggio-data-1.0.12'
 import dustgraveData from '@/assets/LCPs/dustgrave-data-1.4.0'
 import ktbmainData from '@/assets/LCPs/ktb-main-data-1.2.3'
 import longrimmainData from '@/assets/LCPs/longrim-main-data-1.2.1'
@@ -204,7 +205,8 @@ export default {
               ...lancerData.weapons, 
               ...ktbData.weapons, 
               ...nrfawData.weapons, 
-              ...longrimData.weapons, 
+              ...longrimData.weapons,
+              ...arpeggioData.weapons, 
               ...dustgraveData.weapons,
               ...ktbmainData.weapons,
               ...longrimmainData.weapons,
@@ -218,6 +220,7 @@ export default {
               ...ktbData.systems, 
               ...nrfawData.systems, 
               ...longrimData.systems,
+              ...arpeggioData.systems,
               ...dustgraveData.systems,
               ...ktbmainData.systems,
               ...longrimmainData.systems,
@@ -232,6 +235,7 @@ export default {
               ...ktbData.talents, 
               ...nrfawData.talents, 
               ...longrimData.talents,
+              ...arpeggioData.talents,
               ...dustgraveData.talents,
               ...ktbmainData.talents,
               ...longrimmainData.talents,
@@ -257,6 +261,7 @@ export default {
               ...ktbData.frames, 
               ...nrfawData.frames, 
               ...longrimData.frames,
+              ...arpeggioData.frames,
               ...dustgraveData.frames,
               ...ktbmainData.frames,
               ...longrimmainData.frames,
