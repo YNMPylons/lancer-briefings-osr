@@ -1,9 +1,16 @@
 [
     {
-    "name": "BOMBARDMENT",
+    "name": "81st TIGER HUNTER SNIPER TEAM",
     "type": "Tactical",
     "consumable": true,
-    "description": "1/mission, The ability to call in artillery or orbital bombardment once during mech combat (full action, RANGE 30 within line of sight, BLAST 2, 3d6 explosive damage).",
-    "label": "Full Action"
+    "description": "LSA ground forces and Union marines are getting a crash-course in joint operations on this mission, and nothing builds teamwork like target shooting. You can spend this reserve at the start of any combat to call upon a nearby sniper team to provide you with fire support. For the rest of the scene, each time you take the LOCK ON QUICK TECH action, your target takes 2 AP kinetic damage.",
+    "label": ""
+    },
+    {
+    "name": "LOOKING-GLASS Overlay",
+    "type": "Tactical",
+    "consumable": true,
+    "description": "This head-mounted sensor add-on is capable of defeating even advanced thermal/optic/systemic camouflage systems, though it can only operate at that level of intensity for a short duration before burning out. You can spend this reserve during any combat to activate the sensors. For the rest of the scene you ignore soft cover and ignore INVISIBLE for characters within RANGE 3. Hostile characters within RANGE 3 can’t become HIDDEN, though they remain HIDDEN if they were already.",
+    "label": ""
     }
 ]
